@@ -20,13 +20,16 @@ const Register: React.FC<IRegister> = ({ onFormChange }) => {
   const handleSubmit = async (e: any) => {
     e.preventDefault()
     try {
-      const response = await fetch('http://localhost:8000/epicure/users', {
-        method: 'POST',
-        body: JSON.stringify(newUser),
-        headers: {
-          'Content-type': 'application/json; charset=UTF-8',
+      const response = await fetch(
+        'https://web-server-hmw0.onrender.com/epicure/users',
+        {
+          method: 'POST',
+          body: JSON.stringify(newUser),
+          headers: {
+            'Content-type': 'application/json; charset=UTF-8',
+          },
         },
-      })
+      )
       if (response.ok) {
         onFormChange('hello', firstName)
       } else {

@@ -3,9 +3,12 @@ import { IUser } from '../../services/interface'
 
 const data = async () => {
   try {
-    const response = await fetch('http://localhost:8000/epicure/users', {
-      method: 'GET',
-    })
+    const response = await fetch(
+      'https://web-server-hmw0.onrender.com/epicure/users',
+      {
+        method: 'GET',
+      },
+    )
     const data = await response.json()
     return data
   } catch (err) {
@@ -17,7 +20,7 @@ const users: IUser[] = await data()
 // const lastUserFetch = async () => {
 //   try {
 //     const response = await fetch(
-//       'http://localhost:8000/epicure/users/lastuser',
+//       'https://web-server-hmw0.onrender.com/epicure/users/lastuser',
 //       {
 //         method: 'GET',
 //       },
