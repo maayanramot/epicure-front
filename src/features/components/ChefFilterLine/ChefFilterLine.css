@@ -1,0 +1,22 @@
+.chefs-filter-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7.5vh;
+  margin-top: 7vh;
+}
+
+.chefs-filter-line > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5vw;
+}
+
+.chefs-filter-line button {
+  border-style: none;
+  font-size: 24px;
+  letter-spacing: 1.92px;
+  background-color: transparent;
+}

@@ -1,0 +1,65 @@
+/* --------- > desktop first */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 11vh;
+  background-color: #e5e5e5;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 2.5vw;
+  font-size: 18px;
+  color: black;
+}
+
+.navlink {
+  text-decoration: none;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 2.5vw;
+}
+
+.right img {
+  height: 4.2vh;
+  width: 1.8vw;
+}
+
+/* ----------- > search box */
+
+.nav-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 0.5px solid #00000061;
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+#searchBtn {
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button img {
+  width: 24px;
+}

@@ -1,0 +1,69 @@
+.dish-card {
+  width: 27vw;
+  min-height: 105vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3vh;
+  background-color: #f9f4ea;
+}
+
+.dish-card > img {
+  width: 27vw;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3vh;
+}
+
+.dish-card h1 {
+  width: 14vw;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 2.67px;
+}
+
+.kind {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+
+.kind img {
+  width: 2.8vw;
+  height: 4.7vh;
+  object-fit: contain;
+}
+
+.dish-card h2 {
+  width: 21vw;
+  font-size: 22px;
+  letter-spacing: 1.97px;
+  text-align: center;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5vw;
+  margin-bottom: 1vh;
+}
+
+.price img {
+  width: 1vw;
+  height: 3vh;
+  object-fit: contain;
+}
+
+.price h3 {
+  font-size: 24px;
+  letter-spacing: 1.97px;
+}

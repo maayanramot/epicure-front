@@ -1,0 +1,35 @@
+.restaurant-card {
+  width: 27vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f9f4ea;
+}
+
+.restaurant-card > img {
+  height: 38vh;
+}
+
+.restaurant-card div {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vh;
+}
+
+.restaurant-card h1 {
+  font-size: 40px;
+  letter-spacing: 2.67px;
+}
+
+.restaurant-card h2 {
+  font-size: 24px;
+  letter-spacing: 1.97px;
+}
+
+.rating-img {
+  height: 6vh;
+}

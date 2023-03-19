@@ -1,0 +1,9 @@
+.chef-card-grid {
+  width: 85vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.8vw;
+  margin-bottom: 18vh;
+}

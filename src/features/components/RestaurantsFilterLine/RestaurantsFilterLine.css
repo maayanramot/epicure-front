@@ -1,0 +1,40 @@
+.restaurants-filter-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7vw;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+
+.restaurants-filter-line button {
+  font-size: 18px;
+  letter-spacing: 1.92px;
+  border: none;
+  background-color: transparent;
+}
+
+.restaurants-sort-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7vw;
+  height: 9vh;
+  margin-bottom: 7vh;
+}
+
+.restaurants-sort-line button {
+  font-size: 18px;
+  letter-spacing: 1.92px;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8vw;
+}
+
+.restaurants-sort-line img {
+  width: 0.7vw;
+  height: 2.9vh;
+}

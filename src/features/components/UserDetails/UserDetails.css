@@ -1,0 +1,114 @@
+.sign-in {
+  overflow: hidden;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in-content {
+  width: 42vw;
+  height: 92vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.17);
+}
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.5vh;
+}
+
+.user-input h1 {
+  font-size: 24px;
+  letter-spacing: 2.67px;
+  margin-bottom: 1vh;
+}
+
+.user-input h2 {
+  font-size: 18px;
+  letter-spacing: 1.97px;
+  margin-bottom: 8vh;
+}
+
+.user-input input {
+  border-bottom: 0.5px solid #000000;
+  margin-bottom: 4vh;
+}
+
+.user-input input::placeholder {
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 1.97px;
+}
+
+.login-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+}
+
+.login-btn label {
+  font-size: 14px;
+  letter-spacing: 1.97px;
+}
+
+.login-btn button {
+  width: 15vw;
+  height: 7.7vh;
+  font-size: 18px;
+  letter-spacing: 2.67px;
+  color: #ffffff;
+  border: none;
+  background-color: #979797;
+}
+
+.login-btn button:hover {
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8vw;
+  font-size: 14px;
+  letter-spacing: 1.97px;
+  color: #979797;
+}
+
+.sign-up button {
+  width: 15vw;
+  height: 7.7vh;
+  font-size: 18px;
+  letter-spacing: 2.67px;
+  margin-bottom: 3.5vh;
+  text-align: center;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.sign-up button:hover {
+  cursor: pointer;
+}
+
+.successfully-registered {
+  height: fit-content;
+}

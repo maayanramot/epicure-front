@@ -1,0 +1,120 @@
+.dish-modal {
+  overflow: hidden;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-btn {
+  font-size: 18px;
+  color: #ffffff;
+  border-style: none;
+  letter-spacing: 1.92px;
+  background-color: transparent;
+}
+
+.modal-btn:hover {
+  cursor: pointer;
+}
+
+.modal-content {
+  width: 39vw;
+  height: 90vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7vh;
+  background-color: #ffffff;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.17);
+}
+
+.modal-content > img {
+  width: 37.7vw;
+  height: 47vh;
+  object-fit: cover;
+}
+
+.dish-modal-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+  width: 17vw;
+}
+
+.dish-modal-head h1 {
+  font-size: 32px;
+  letter-spacing: 2.67px;
+  text-align: center;
+}
+
+.dish-modal-head h2 {
+  font-size: 14px;
+  letter-spacing: 1.97px;
+  text-align: center;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3.8vh;
+}
+
+.input-form h1 {
+  padding-bottom: 1.2vh;
+  border-bottom: 1px solid #de9200e5;
+  font-size: 20px;
+  letter-spacing: 1.97px;
+  text-align: center;
+  width: fit-content;
+}
+
+.choose-form {
+  display: flex;
+  gap: 0.8vw;
+}
+
+.choose-form input {
+  width: fit-content;
+}
+
+.choose-form label {
+  font-size: 18px;
+  letter-spacing: 1.97px;
+}
+
+.quantity {
+  display: flex;
+  gap: 2.3vw;
+}
+
+.quantity button {
+  border-style: none;
+  font-size: 18px;
+}
+
+.quantity label {
+  font-size: 18px;
+}
+
+.add {
+  width: 15vw;
+  min-height: 8vh;
+  background-color: #000000;
+  color: #ffffff;
+  margin-bottom: 4.5vh;
+  font-size: 18px;
+  letter-spacing: 2.67px;
+}

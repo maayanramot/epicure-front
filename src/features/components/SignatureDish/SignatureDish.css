@@ -1,0 +1,10 @@
+.signature {
+  display: flex;
+  flex-direction: column;
+  gap: 7vh;
+}
+
+.signature p {
+  text-align: center;
+  font-size: 30px;
+}

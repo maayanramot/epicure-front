@@ -1,0 +1,44 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+}
+
+.popular {
+  width: 80vw;
+  height: 97vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 7vh;
+
+  margin-bottom: 7vh;
+}
+
+.popular > p {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 1.25px;
+  width: 90vw;
+}
+
+.popular button {
+  font-family: HelveticaNeueMedium;
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.9vw;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

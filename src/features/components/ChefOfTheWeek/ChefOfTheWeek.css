@@ -1,0 +1,63 @@
+.chef-of-the-week {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7vh;
+  margin-bottom: 7vh;
+}
+
+.chef-of-the-week > p {
+  font-size: 30px;
+  letter-spacing: 1.25px;
+}
+
+.chef-of-the-week > div {
+  display: flex;
+  gap: 4vw;
+  width: 87vw;
+}
+
+.chef-info {
+  font-size: 24px;
+  letter-spacing: 1.25px;
+  text-align: justify;
+}
+
+.chef-week-rests {
+  display: flex;
+  flex-direction: column;
+}
+
+.chef-week-rests > p {
+  font-size: 30px;
+  letter-spacing: 1.25px;
+}
+
+.chef-week-rests > div {
+  display: flex;
+  gap: 1vw;
+}
+
+.chef-rest-card {
+  min-height: 62vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3vh;
+  background-color: #f9f4ea;
+}
+
+.chef-rest-card img {
+  width: 16vw;
+  height: 39vh;
+  object-fit: cover;
+}
+
+.chef-rest-card h1 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2.67px;
+  width: 9vw;
+}

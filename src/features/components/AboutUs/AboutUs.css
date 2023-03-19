@@ -1,0 +1,74 @@
+.about-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.about {
+  width: 86vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7vh;
+  margin-bottom: 7vh;
+}
+
+.about h1 {
+  font-size: 30px;
+  letter-spacing: 2.14px;
+  margin-top: 7vh;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30vw;
+}
+
+.about p {
+  font-size: 20px;
+  letter-spacing: 2.14px;
+  widows: 40vw;
+}
+
+.about > img {
+  width: 13vw;
+  height: 26vh;
+}
+
+.btns-con {
+  width: 27vw;
+  display: flex;
+  gap: 1vw;
+}
+
+.download-btn {
+  width: 13vw;
+  height: 8.4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5vw;
+  border: 0.5px solid #000000;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.download-btn h3 {
+  font-size: 14px;
+  letter-spacing: 1.29px;
+}
+
+.download-btn h2 {
+  font-size: 16px;
+  letter-spacing: 1.29px;
+}
+
+.btn-text {
+  display: flex;
+  flex-direction: column;
+}

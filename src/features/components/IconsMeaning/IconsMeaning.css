@@ -1,0 +1,27 @@
+.icon-meaning {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5vh;
+  background-color: #fafafa;
+  min-height: 42vh;
+  margin-bottom: 7vh;
+}
+
+.icon-meaning p {
+  font-size: 30px;
+  letter-spacing: 2.14px;
+  text-align: center;
+}
+
+.icon-meaning > div {
+  display: flex;
+  justify-content: center;
+  gap: 9vw;
+}
+
+.king-dish-icon {
+  width: 5.5vw;
+  height: 9.7vh;
+  object-fit: contain;
+}
