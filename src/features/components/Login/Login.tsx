@@ -31,8 +31,9 @@ const Login: React.FC<ILogin> = ({ onFormChange }) => {
           console.log(data, 'userRegister')
           if (data.status === 'ok') {
             alert('login successful')
+            onFormChange('loginSuccessful', '')
             window.localStorage.setItem('token', data.data)
-            // window.location.href="./userDetails"
+            window.location.href = './userDetails'
           } else {
             throw new Error('login does NOT successful')
           }

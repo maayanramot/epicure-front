@@ -8,7 +8,7 @@ import person from '../../assets/icons/person.svg'
 import bag from '../../assets/icons/shopping-bag.png'
 
 import UserDetails from '../../features/components/UserDetails/UserDetails'
-// import UserName from '../../features/components/UserName/UserName'
+import UserName from '../../features/components/UserName/UserName'
 
 const Navbar: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false)
@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
             <img src={searchIcon} alt="search logo" />
           </button>
         </form>
-        {/* <UserName /> */}
+        <UserName />
         <NavLink to="/" className="navlink">
           <img src={person} alt="person icon" onClick={handleOpen} />
         </NavLink>

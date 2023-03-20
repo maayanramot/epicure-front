@@ -3,12 +3,9 @@ import { IChef } from '../../services/interface'
 
 const data = async () => {
   try {
-    const response = await fetch(
-      'https://web-server-hmw0.onrender.com/epicure/chefs',
-      {
-        method: 'GET',
-      },
-    )
+    const response = await fetch('http://localhost:8000/epicure/chefs', {
+      method: 'GET',
+    })
     const data = await response.json()
     return data
   } catch (err) {

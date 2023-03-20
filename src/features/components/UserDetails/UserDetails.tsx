@@ -1,6 +1,7 @@
 import React, { MouseEventHandler, useState } from 'react'
 import HelloUser from '../../../features/components/HelloUser/HelloUser'
 import Login from '../Login/Login'
+import LoginSuccessful from '../LoginSuccessful/LoginSuccessful'
 import Register from '../Register/Register'
 import UserExist from '../UserExist/UserExist'
 import './UserDetails.css'
@@ -30,7 +31,8 @@ const UserDetails: React.FC<IUserDetails> = ({ close }) => {
             <Register onFormChange={handleFormChange} />
           )}
           {currentForm === 'hello' && <HelloUser name={userName} />}
-          {currentForm === 'exist' && <UserExist/>}
+          {currentForm === 'exist' && <UserExist />}
+          {currentForm === 'loginSuccessful' && <LoginSuccessful />}
         </div>
       </div>
     </div>
