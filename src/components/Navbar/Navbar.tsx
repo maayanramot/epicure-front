@@ -10,7 +10,11 @@ import bag from '../../assets/icons/shopping-bag.png'
 import UserDetails from '../../features/components/UserDetails/UserDetails'
 import UserName from '../../features/components/UserName/UserName'
 
-const Navbar: React.FC = () => {
+interface INavbar {
+  firstUserName: string
+}
+
+const Navbar: React.FC<INavbar> = ({ firstUserName }) => {
   const [isVisible, setIsVisible] = useState(false)
 
   const handleOpen = () => {
@@ -29,6 +33,7 @@ const Navbar: React.FC = () => {
           Chefs
         </NavLink>
       </div>
+      <UserName firstName={firstUserName} />
       <div className="right">
         <form className="nav-search">
           <input type="search" placeholder="Search..." />
@@ -36,7 +41,6 @@ const Navbar: React.FC = () => {
             <img src={searchIcon} alt="search logo" />
           </button>
         </form>
-        <UserName />
         <NavLink to="/" className="navlink">
           <img src={person} alt="person icon" onClick={handleOpen} />
         </NavLink>

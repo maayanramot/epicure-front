@@ -3,7 +3,10 @@
 nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   height: 11vh;
+  font-size: 16px;
+  letter-spacing: 1.67px;
   background-color: #e5e5e5;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }

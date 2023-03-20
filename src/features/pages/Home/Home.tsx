@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Footer from '../../../components/Footer/Footer'
 
 import Navbar from '../../../components/Navbar/Navbar'
@@ -10,9 +10,27 @@ import PopularRestaurants from '../../components/PopularRestaurants/PopularResta
 import SignatureDish from '../../components/SignatureDish/SignatureDish'
 
 const Home: React.FC = () => {
+  const [data, setData] = useState('Guest')
+
+  try {
+    const response = fetch('http://localhost:8000/epicure/users/userData', {
+      method: 'POST',
+      body: JSON.stringify({ token: window.localStorage.getItem('token') }),
+      headers: {
+        'Content-type': 'application/json; charset=UTF-8',
+      },
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data, 'user data')
+        setData(data.data.firstName)
+      })
+  } catch (e) {
+    console.log(e)
+  }
   return (
     <>
-      <Navbar />
+      <Navbar firstUserName={data} />
       <Hero />
       <PopularRestaurants />
       <SignatureDish />
