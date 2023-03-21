@@ -14,6 +14,10 @@
   background-color: transparent;
 }
 
+.restaurants-filter-line button:hover {
+  cursor: pointer;
+}
+
 .restaurants-sort-line {
   display: flex;
   align-items: center;

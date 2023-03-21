@@ -8,6 +8,10 @@
   background-color: #f9f4ea;
 }
 
+.dish-card:hover {
+  cursor: pointer;
+}
+
 .dish-card > img {
   width: 27vw;
   height: 40vh;

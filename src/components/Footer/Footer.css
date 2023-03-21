@@ -15,3 +15,7 @@
   background-color: transparent;
   border: none;
 }
+
+.footer button:hover {
+  cursor: pointer;
+}

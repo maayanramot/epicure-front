@@ -90,6 +90,10 @@
   width: fit-content;
 }
 
+.choose-form input:hover {
+  cursor: pointer;
+}
+
 .choose-form label {
   font-size: 18px;
   letter-spacing: 1.97px;
@@ -103,6 +107,11 @@
 .quantity button {
   border-style: none;
   font-size: 18px;
+  background-color: transparent;
+}
+
+.quantity button:hover {
+  cursor: pointer;
 }
 
 .quantity label {
@@ -117,4 +126,8 @@
   margin-bottom: 4.5vh;
   font-size: 18px;
   letter-spacing: 2.67px;
+}
+
+.add:hover {
+  cursor: pointer;
 }

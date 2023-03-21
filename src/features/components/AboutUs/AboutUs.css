@@ -58,6 +58,10 @@
   background-color: transparent;
 }
 
+.download-btn:hover {
+  cursor: pointer;
+}
+
 .download-btn h3 {
   font-size: 14px;
   letter-spacing: 1.29px;

@@ -5,6 +5,23 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: #f9f4ea;
+  position: relative;
+}
+
+.restaurant-card button {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  background-color: transparent;
+  border: none;
+}
+
+.restaurant-card button:hover {
+  cursor: pointer;
+}
+
+.restaurant-card h1:hover {
+  cursor: pointer;
 }
 
 .restaurant-card > img {

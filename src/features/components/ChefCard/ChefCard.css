@@ -19,6 +19,9 @@
 .chef-card button {
   position: absolute;
   right: 0;
+  top: 5px;
+  background-color: transparent;
+  border: none;
 }
 
 .chef-card button:hover {

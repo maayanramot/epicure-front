@@ -101,7 +101,6 @@ const DishModal: React.FC<IDishModal> = ({
             </div>
           </div>
           <button className="add">ADD TO BAG</button>
-          <button className="add">Delete Dish</button>
         </div>
       </div>
     </div>
