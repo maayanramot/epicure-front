@@ -26,6 +26,7 @@ export interface IUser {
 }
 
 export interface IChef {
+  _id: string
   id: number
   firstName: string
   lastName: string
@@ -38,6 +39,7 @@ export interface IChef {
 }
 
 export interface IRestaurant {
+  _id: string
   id: number
   img: string
   name: string
@@ -52,6 +54,7 @@ export interface IRestaurant {
 }
 
 export interface IDish {
+  _id: string
   id: string
   img: string
   name: string

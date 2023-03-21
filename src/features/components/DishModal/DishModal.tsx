@@ -7,7 +7,7 @@ import vegan from '../../../assets/icons/vegan.png'
 import ILS from '../../../assets/icons/shekel.png'
 
 interface IDishModal {
-  id:string
+  id: string
   src: string
   name: string
   ingredients: string
@@ -33,11 +33,6 @@ const DishModal: React.FC<IDishModal> = ({
   changes,
   close,
 }) => {
-
-  // const handleDelete = async (id) => {
-  //   await 
-  // }
-
   return (
     <div className="dish-modal">
       <div>

@@ -30,6 +30,8 @@ const ChefOfTheWeek: React.FC = () => {
       <p>CHEF OF THE WEEK:</p>
       <div>
         <ChefCard
+          onClick={() => {}}
+          chefClickedId={"0"}
           name={
             chosenChef?.firstName + ' ' + chosenChef?.lastName
               ? chosenChef?.firstName + ' ' + chosenChef?.lastName

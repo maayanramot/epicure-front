@@ -10,6 +10,21 @@
   object-fit: cover;
 }
 
+.delete-button > img {
+  width: 3vw;
+  height: 3vh;
+  object-fit: contain;
+}
+
+.chef-card button {
+  position: absolute;
+  right: 0;
+}
+
+.chef-card button:hover {
+  cursor: pointer;
+}
+
 .frame {
   width: 27vw;
   height: 12vh;
@@ -26,6 +41,6 @@
   text-align: center;
   font-family: HelveticaNeueMedium;
 
-  font-size: 40px;
+  font-size: 32px;
   letter-spacing: 2.67px;
 }

@@ -17,7 +17,6 @@ const Restaurants: React.FC = () => {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data, 'user data')
         setData(data.data.firstName)
       })
   } catch (e) {
