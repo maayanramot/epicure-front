@@ -12,6 +12,7 @@ const AboutUs: React.FC = () => {
         <h1>ABOUT US:</h1>
         <div className="about-content">
           <p>
+            <h1 className="display-none-h1">ABOUT US:</h1>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a lacus
             vel justo fermentum bibendum non eu ipsum. Cras porta malesuada
             eros, eget blandit turpis suscipit at. Vestibulum sed massa in magna
@@ -38,6 +39,11 @@ const AboutUs: React.FC = () => {
               <h2>Google Play</h2>
             </div>
           </button>
+          <img
+            className="display-none-img"
+            src={aboutLogo}
+            alt="about logo"
+          ></img>
         </div>
       </div>
     </div>

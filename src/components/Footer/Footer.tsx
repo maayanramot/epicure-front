@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer: React.FC = () => {
   return (
     <div className="footer">
-      <button>Contact Us</button>
+      <button className='contact'>Contact Us</button>
       <button>Term of Use</button>
       <button>Privacy Policy</button>
     </div>

@@ -65,9 +65,45 @@ button img {
   width: 24px;
 }
 
+.nav-display-none {
+  display: none;
+  height: 8vh;
+  width: 6vw;
+  object-fit: contain;
+}
+
 /* mobile style */
 @media (max-width: 375px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 11vh;
+    font-size: 16px;
+    letter-spacing: 1.67px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
   .left {
+    display: none;
+  }
+
+  .nav-display-none {
+    display: flex;
+    height: 8vh;
+    width: 8vw;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
+  .right img {
+    height: 8vh;
+    width: 6vw;
+    object-fit: contain;
+    cursor: pointer;
+  }
+
+  .nav-search {
     display: none;
   }
 }

@@ -47,3 +47,29 @@
   font-size: 32px;
   letter-spacing: 2.67px;
 }
+
+@media (max-width: 375px) {
+  .chef-card {
+    width: 80vw;
+  }
+
+  .chef-card img {
+    width: 80vw;
+  }
+
+  .display-none-delete {
+    display: none;
+  }
+
+  .frame {
+    width: 80vw;
+  }
+
+  .frame p {
+    width: 80vw;
+  }
+
+  .chef-of-the-week > p {
+    font-size: 26px;
+  }
+}

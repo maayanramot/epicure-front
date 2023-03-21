@@ -40,6 +40,14 @@
   height: 26vh;
 }
 
+.display-none-img {
+  display: none;
+}
+
+.display-none-h1 {
+  display: none;
+}
+
 .btns-con {
   width: 27vw;
   display: flex;
@@ -82,5 +90,43 @@
   .about {
     flex-direction: column;
     flex-direction: column-reverse;
+  }
+
+  .about > h1 {
+    display: none;
+  }
+
+  .about-content > img {
+    display: none;
+  }
+
+  .about p {
+    font-size: 18px;
+    width: fit-content;
+  }
+
+  .btns-con {
+    flex-direction: column-reverse;
+    width: fit-content;
+    gap: 5vh;
+  }
+
+  .download-btn {
+    width: 50vw;
+  }
+
+  .display-none-img {
+    display: flex;
+    width: 30vw;
+    margin-top: 5vh;
+  }
+
+  .display-none-h1 {
+    display: flex;
+    margin-bottom: 5vh;
+  }
+
+  .about h1 {
+    font-size: 22px;
   }
 }

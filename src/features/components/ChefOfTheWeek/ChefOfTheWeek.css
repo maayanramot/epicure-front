@@ -67,4 +67,13 @@
   .chef-of-the-week > div {
     flex-direction: column;
   }
+
+  .chef-week-rests > div {
+    overflow-x: scroll;
+    gap: 4vw;
+  }
+
+  .chef-rest-card img {
+    width: fit-content;
+  }
 }

@@ -1,9 +1,16 @@
 .restaurants-card-grid {
-  width: 85vw;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 1.8vw;
   margin-bottom: 7vh;
+}
+
+@media (max-width: 375px) {
+  .restaurants-card-grid {
+    flex-wrap: nowrap;
+    margin-bottom: 0;
+    overflow-x: scroll;
+  }
 }

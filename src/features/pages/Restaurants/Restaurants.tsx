@@ -6,7 +6,6 @@ import RestaurantsFilterLine from '../../components/RestaurantsFilterLine/Restau
 
 const Restaurants: React.FC = () => {
   const [data, setData] = useState('')
-  setData('Guest')
 
   // try {
   //   const response = fetch('https://web-server-hmw0.onrender.com/epicure/users/userData', {

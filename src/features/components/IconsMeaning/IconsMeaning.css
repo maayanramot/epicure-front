@@ -25,3 +25,25 @@
   height: 9.7vh;
   object-fit: contain;
 }
+
+/* mobile style */
+@media (max-width: 375px) {
+  .icon-meaning {
+    flex-direction: column;
+  }
+
+  .icon-meaning p {
+    font-size: 26px;
+    margin-top: 4vh;
+  }
+
+  .icon-meaning > div {
+    flex-direction: column;
+    margin-bottom: 4vh;
+  }
+
+  .king-dish-icon {
+    width: 13vw;
+    height: 18vh;
+  }
+}

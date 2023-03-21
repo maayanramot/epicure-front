@@ -8,3 +8,50 @@
   text-align: center;
   font-size: 30px;
 }
+
+@media (max-width: 375px) {
+  .signature > div {
+    width: fit-content;
+  }
+
+  .signature p {
+    font-size: 20px;
+    text-align: start;
+  }
+
+  .dishes-card-grid {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 100vw;
+    gap: 5vw;
+  }
+
+  .dish-card {
+    width: 85vw;
+    max-height: 170vh;
+    min-height: 160vh;
+    gap: 1vh;
+  }
+
+  .dish-card > img {
+    width: 85vw;
+  }
+
+  .dish-card h1 {
+    width: fit-content;
+  }
+
+  .dish-card h2 {
+    width: 30vw;
+  }
+
+  .price img {
+    width: 3vw;
+  }
+
+  .kind img {
+    width: 15vw;
+    height: 10vh;
+  }
+}

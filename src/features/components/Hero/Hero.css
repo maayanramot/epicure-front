@@ -48,3 +48,19 @@
   background-color: transparent;
   cursor: pointer;
 }
+
+@media (max-width: 375px) {
+  .hero > div > p {
+    width: 70vw;
+    height: 15vh;
+    font-size: 20px;
+  }
+
+  .hero-form {
+    width: 60vw;
+  }
+
+  .hero-input {
+    font-size: 20px;
+  }
+}

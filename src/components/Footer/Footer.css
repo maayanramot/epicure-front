@@ -24,5 +24,11 @@
 @media (max-width: 375px) {
   .footer {
     flex-direction: column;
+    height: fit-content;
+    margin-bottom: 2.5vh;
+  }
+
+  .contact {
+    margin-top: 2.5vh;
   }
 }

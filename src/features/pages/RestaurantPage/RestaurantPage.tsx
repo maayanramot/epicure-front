@@ -9,7 +9,7 @@ import RestaurantPageHeader from '../../components/RestaurantPageHeader/Restaura
 
 const RestaurantPage: React.FC = () => {
   const [data, setData] = useState('')
-  setData('Guest')
+
   // try {
   //   const response = fetch('https://web-server-hmw0.onrender.com/epicure/users/userData', {
   //     method: 'POST',

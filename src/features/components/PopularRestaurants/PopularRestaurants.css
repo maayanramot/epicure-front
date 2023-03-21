@@ -42,3 +42,30 @@
   right: 0;
   bottom: 0;
 }
+
+@media (max-width: 375px) {
+  .popular > p {
+    font-size: 18px;
+    width: 100vw;
+  }
+
+  .popular {
+    width: 100vw;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 7vh;
+    margin-bottom: 7vh;
+  }
+
+  .popular > div {
+    width: 100vw;
+  }
+
+  .popular button {
+    font-size: 20px;
+  }
+}
