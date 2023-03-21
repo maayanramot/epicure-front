@@ -18,8 +18,7 @@ const ChefCard: React.FC<IChefCard> = ({
 }) => {
   const deleteChef = async (chefClickedId: string) => {
     await fetch(
-      `http://localhost:8000/epicure/chefs/${chefClickedId}`,
-      // `https://web-server-hmw0.onrender.com/epicure/chefs/${chefClickedId}`,
+      `https://web-server-hmw0.onrender.com/epicure/chefs/${chefClickedId}`,
       {
         method: 'DELETE',
       },
@@ -39,7 +38,7 @@ const ChefCard: React.FC<IChefCard> = ({
         className="delete-button"
         onClick={() => deleteChef(chefClickedId)}
       >
-        <img className='display-none-delete' src={deleteBtn}></img>
+        <img className="display-none-delete" src={deleteBtn}></img>
       </button>
       <img src={src} alt="chef img"></img>
       <div className="frame">
