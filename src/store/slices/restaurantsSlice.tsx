@@ -3,9 +3,12 @@ import { IRestaurant } from '../../services/interface'
 
 const data = async () => {
   try {
-    const response = await fetch('http://localhost:8000/epicure/restaurants', {
-      method: 'GET',
-    })
+    const response = await fetch(
+      'https://epicure-front-deploy.onrender.com/epicure/restaurants',
+      {
+        method: 'GET',
+      },
+    )
     const data = await response.json()
 
     return data

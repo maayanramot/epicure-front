@@ -7,7 +7,7 @@ const Chefs: React.FC = () => {
   const [data, setData] = useState('')
 
   try {
-    const response = fetch('http://localhost:8000/epicure/users/userData', {
+    const response = fetch('https://epicure-front-deploy.onrender.com/epicure/users/userData', {
       method: 'POST',
       body: JSON.stringify({ token: window.localStorage.getItem('token') }),
       headers: {

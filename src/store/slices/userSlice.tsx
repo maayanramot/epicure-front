@@ -3,9 +3,12 @@ import { IUser } from '../../services/interface'
 
 const data = async () => {
   try {
-    const response = await fetch('http://localhost:8000/epicure/users', {
-      method: 'GET',
-    })
+    const response = await fetch(
+      'https://epicure-front-deploy.onrender.com/epicure/users',
+      {
+        method: 'GET',
+      },
+    )
     const data = await response.json()
     return data
   } catch (err) {

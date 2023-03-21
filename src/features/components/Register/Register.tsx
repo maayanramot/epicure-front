@@ -21,7 +21,7 @@ const Register: React.FC<IRegister> = ({ onFormChange }) => {
     e.preventDefault()
     try {
       const response = await fetch(
-        'http://localhost:8000/epicure/users',
+        'https://epicure-front-deploy.onrender.com/epicure/users',
         {
           method: 'POST',
           body: JSON.stringify(newUser),

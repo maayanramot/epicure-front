@@ -13,6 +13,7 @@
   right: 0;
   top: 5px;
   background-color: transparent;
+  height: fit-content;
   border: none;
 }
 

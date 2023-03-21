@@ -17,7 +17,7 @@ const ChefCard: React.FC<IChefCard> = ({
   chefClickedId,
 }) => {
   const deleteChef = async (chefClickedId: string) => {
-    await fetch(`http://localhost:8000/epicure/chefs/${chefClickedId}`, {
+    await fetch(`https://epicure-front-deploy.onrender.com/epicure/chefs/${chefClickedId}`, {
       method: 'DELETE',
     })
       .then((response) => {
