@@ -11,7 +11,7 @@ import UserDetails from '../../features/components/UserDetails/UserDetails'
 import UserName from '../../features/components/UserName/UserName'
 
 interface INavbar {
-  firstUserName: string
+  firstUserName?: string
 }
 
 const Navbar: React.FC<INavbar> = ({ firstUserName }) => {

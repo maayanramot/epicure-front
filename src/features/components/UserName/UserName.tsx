@@ -1,7 +1,7 @@
 import React from 'react'
 
 interface IUserName {
-  firstName: string
+  firstName?: string
 }
 
 const UserName: React.FC<IUserName> = ({ firstName }) => {
