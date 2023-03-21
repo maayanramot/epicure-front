@@ -61,3 +61,10 @@
   letter-spacing: 2.67px;
   width: 9vw;
 }
+
+/* mobile style */
+@media (max-width: 375px) {
+  .chef-of-the-week > div {
+    flex-direction: column;
+  }
+}

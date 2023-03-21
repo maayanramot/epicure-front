@@ -4,7 +4,7 @@ import { IUser } from '../../services/interface'
 const data = async () => {
   try {
     const response = await fetch(
-      'https://epicure-front-deploy.onrender.com/epicure/users',
+      'https://web-server-hmw0.onrender.com/epicure/users',
       {
         method: 'GET',
       },

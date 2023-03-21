@@ -17,7 +17,7 @@ const Login: React.FC<ILogin> = ({ onFormChange }) => {
     e.preventDefault()
     try {
       const response = await fetch(
-        'https://epicure-front-deploy.onrender.com/epicure/users/login',
+        'https://web-server-hmw0.onrender.com/epicure/users/login',
         {
           method: 'POST',
           body: JSON.stringify(loginUser),

@@ -4,7 +4,7 @@ import { IChef } from '../../services/interface'
 const data = async () => {
   try {
     const response = await fetch(
-      'https://epicure-front-deploy.onrender.com/epicure/chefs',
+      'https://web-server-hmw0.onrender.com/epicure/chefs',
       {
         method: 'GET',
       },

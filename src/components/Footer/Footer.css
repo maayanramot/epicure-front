@@ -19,3 +19,10 @@
 .footer button:hover {
   cursor: pointer;
 }
+
+/* mobile style */
+@media (max-width: 375px) {
+  .footer {
+    flex-direction: column;
+  }
+}

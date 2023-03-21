@@ -24,7 +24,7 @@ const RestaurantCard: React.FC<IRestaurantCard> = ({
 }) => {
   const deleteRestaurant = async (restaurantClickedId: string) => {
     await fetch(
-      `https://epicure-front-deploy.onrender.com/epicure/restaurants/${restaurantClickedId}`,
+      `https://web-server-hmw0.onrender.com/epicure/restaurants/${restaurantClickedId}`,
       {
         method: 'DELETE',
       },

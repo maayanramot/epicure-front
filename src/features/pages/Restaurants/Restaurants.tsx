@@ -9,7 +9,7 @@ const Restaurants: React.FC = () => {
   setData('Guest')
 
   // try {
-  //   const response = fetch('https://epicure-front-deploy.onrender.com/epicure/users/userData', {
+  //   const response = fetch('https://web-server-hmw0.onrender.com/epicure/users/userData', {
   //     method: 'POST',
   //     body: JSON.stringify({ token: window.localStorage.getItem('token') }),
   //     headers: {

@@ -7,3 +7,10 @@
   gap: 1.8vw;
   margin-bottom: 18vh;
 }
+
+/* mobile style */
+@media (max-width: 375px) {
+  .dishes-card-grid {
+    flex-direction: column;
+  }
+}
